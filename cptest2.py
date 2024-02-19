@@ -17,22 +17,3 @@ img = qr.make_image(fill='black', back_color='white')
 filename = f"/Users/ericgraham/Sites/inventory/img/qr/{book_title}.png"
 img.save(filename)
 print(f"QR code generated for book '{book_title}' and saved as '{filename}'")
-
-
-# Create QRCode instance
-#qr = qrcode.QRCode(
- #   version=1,
-   # error_correction=qrcode.constants.ERROR_CORRECT_L,
-    #box_size=10,
-    #border=4,
-#)
-
-# Add data to qr code
-#qr.add_data('Some data to convert to QR code')
-#qr.make(fit=True)
-
-# Create an image from the QR Code instance
-#img = qr.make_image(fill='black', back_color='white')
-
-# Save it somewhere, change the extension as needed:
-#img.save("/Users/ericgraham/Sites/inventory/img/qr/image.png")
